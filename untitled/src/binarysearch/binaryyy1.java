@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class binaryyy1 {
     public static void main(String[] args) {
  int [] arr={2,3,4,5,6,7,15};
-int ans=binarysearch(arr,5);
+int ans=bin(arr,0,arr.length-1,5);
         System.out.println(ans);
     }
 
@@ -29,4 +29,21 @@ int ans=binarysearch(arr,5);
         }
         return -1;
     }
-}
+
+
+    static int bin(int []arr,int s,int e, int x){
+        int mid=s+(e-s)/2;
+
+        if(arr[mid]<x){
+            return bin(arr,mid+1,e,x);
+        }
+
+        else if(arr[mid]>x){
+            return bin(arr,s,mid-1,x);
+        }
+else if(arr[mid]==x){
+        return mid;}
+
+
+return -1;
+}}

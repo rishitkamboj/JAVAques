@@ -133,7 +133,7 @@ static void mergee(int arr1[], int arr2[]){
 
     static void swapIfGreater(int[] arr1, int[] arr2, int ind1, int ind2) {
         if (arr1[ind1] > arr2[ind2]) {
-            long temp = arr1[ind1];
+            int temp = arr1[ind1];
             arr1[ind1] = arr2[ind2];
             arr2[ind2] = temp;
         }
