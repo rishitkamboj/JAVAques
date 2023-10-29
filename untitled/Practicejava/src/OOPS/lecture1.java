@@ -2,11 +2,13 @@ package OOPS;
 
 public class lecture1 {
     public static void main(String[] args) {
-        Student kunal=new Student();
-       kunal.marks=12;
-       kunal.name="Rishit";
+        Student rish=new Student(24,"Rishit Kamboj",99.00f);
 
-        System.out.println(a);
+        System.out.println(rish.rno);
+
+
+
+
     }
 
 
@@ -15,5 +17,11 @@ public class lecture1 {
         int rno;
         String name;
         float marks;
+
+        Student(int roll, String n,float mark){
+             this.rno=roll;
+             this.name=n;
+             this.marks=mark;
+        }
     }
 }
