@@ -1,4 +1,4 @@
-package OOPS.lecture3;
+package OOPS.lecture3.inheritance;
 
 public class Box {
     double length;
