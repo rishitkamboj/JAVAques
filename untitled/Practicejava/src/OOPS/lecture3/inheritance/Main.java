@@ -17,7 +17,14 @@ public class Main {
 //        Box box5=new Boxweight(2,3,4,8);
 //        System.out.println(box5.weight);
         // Box is reference type referencing to Boxweight
-Boxprice price=new Boxprice();
+//Boxprice price=new Boxprice();
+
+ Box box1=new Box();
+// Box.greeting();
+ Boxweight box=new Boxweight();
+Boxweight.greeting();
+
+ // you can inherit but you cant override
 
 
 

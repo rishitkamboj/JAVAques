@@ -3,6 +3,10 @@ package OOPS.lecture3.inheritance;
 public class Boxweight extends Box {
     double weight;
 
+    static void greeting(){
+        System.out.println("Hey, I am in Boxweight Class");
+    }
+
    Boxweight() {
         this.weight = -1;
     }

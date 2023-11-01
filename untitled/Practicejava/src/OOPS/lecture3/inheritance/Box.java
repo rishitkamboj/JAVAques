@@ -5,6 +5,11 @@ public class Box {
     double height;
     double width;
 
+  static void greeting(){
+      System.out.println("Hey, I am in Box Class");
+  }
+
+
     public Box() {
         this.height=-1;
         this.width=-1;
