@@ -1,4 +1,4 @@
-package OOPS.greet;
+package OOPS.staticExample.greet;
 
 public class Greeting {
     public static void main(String[] args) {
