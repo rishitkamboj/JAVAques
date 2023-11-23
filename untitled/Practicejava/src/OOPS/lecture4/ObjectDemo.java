@@ -6,6 +6,7 @@ public class ObjectDemo {
 
     public ObjectDemo(int num) {
         this.num = num;
+
     }
 
 
