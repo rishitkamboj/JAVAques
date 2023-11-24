@@ -7,6 +7,7 @@ import static java.lang.System.exit;
 public class BTMain {
     public static void main(String[] args) {
         BinaryTree tree=new BinaryTree();
+
         int choice = 1;
         int key;
         Scanner sc=new Scanner(System.in);
