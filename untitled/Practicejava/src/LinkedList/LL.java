@@ -47,7 +47,7 @@ public class LL {
      /* Node temp=head;
      while(temp.next!=null){
      temp=temp.next;}
-     temp.next=head;
+     temp.next=node;
      size++;
       */
 
